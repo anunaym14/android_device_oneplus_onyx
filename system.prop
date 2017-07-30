@@ -1,11 +1,11 @@
 #
 # system.prop for OnePlus X
 #
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp
+adbpersist.adb.notify=0
 
-ro.build.product=OnePlus
-ro.product.device=OnePlus
-ro.build.description=OnePlus
-ro.build.fingerprint=OnePlus/OnePlus/OnePlus:6.0.1/MMB29M/10281213:user/release-keys
 ro.prj_name=15055
 
 # RIL
@@ -24,12 +24,6 @@ telephony.lteOnGsmDevice=1
 
 # Fast Dormancy
 persist.env.fastdorm.enabled=false
-
-# ADB
-persist.service.adb.enable=1
-persist.service.debuggable=1
-persist.sys.usb.config=mtp
-adbpersist.adb.notify=0
 
 # Audio
 mm.enable.smoothstreaming=true
